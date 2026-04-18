@@ -35,3 +35,5 @@ def main():
     verify_decryption(raw_path, decrypted_path)
 
     print("\nDone.")
+    if _name_ == "_main_":
+    main()
